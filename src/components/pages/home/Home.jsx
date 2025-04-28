@@ -1,4 +1,4 @@
-import Footer from "../../footer/Footer";
+// import Footer from "../../footer/Footer";
 import Navbar from "../../navbar/Navbar";
 import Hero from "../../hero/Hero";
 import './Home.scss';
@@ -17,7 +17,7 @@ const Home = () => {
       {/* <Proj/> */}
       <Contact/>
     </div>
-    <Footer />
+    {/* <Footer /> */}
     </div>
   )
 }

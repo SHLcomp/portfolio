@@ -1,7 +1,11 @@
 import pcImg from '../../assets/pc2.png';
 import './Hero.scss';
+import pdf from './cv.pdf'
 
 const Hero = () => {
+  const handleWhatsApp = () => {
+    window.open('https://wa.me/9620771407526', '_blank'); 
+  };
   return (
     <div className='hero'>
 
@@ -13,8 +17,10 @@ const Hero = () => {
 
         <div className="ctas">
           {/* whatsapp and download cv options */}
-          <button className="contact">WhatsApp</button>
-          <button className="cv">Download CV</button>
+          <button className="contact" onClick={handleWhatsApp}>WhatsApp</button>
+          <a href={pdf} download>
+          <button className="cv" type='button'>Download CV</button>
+          </a>
         </div>
       </div>
 
