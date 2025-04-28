@@ -20,7 +20,7 @@ const Navbar = () => {
           </li>
 
           <div className={`nav-links ${showLinks ? 'show' : ''}`}>
-            <Link to={"/"} className='a'><li>Home</li></Link>
+            <Link to={"/portfolio"} className='a'><li>Home</li></Link>
             <li><a href="#exp" className='a'>Experience</a></li>
             <li><a href="#edu" className='a'>Education</a></li>
             <li><a href="#contact" className='a'>Contact</a></li>
