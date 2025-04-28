@@ -1,0 +1,55 @@
+.edu{
+  background: var(--div-bg);
+  display: flex;
+  padding-block: 50px;
+  .text{
+    width: 50%;
+    float: left;
+    padding-inline: 30px;
+    h3{
+      color: var(--nav-links-color);
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    h6{
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    ul{
+      li{
+        &:hover{
+          color: var(--nav-links-color) !important;
+        }
+      }
+    }
+    // .cert{
+    // }
+  }
+
+  .img-cont{
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 90%;
+    }
+  }
+}
+
+
+@media (max-width: 640px){
+  .edu{
+    display: flex;
+    flex-direction: column;
+    .text{
+      width: 100% !important;
+    }
+
+    .img-cont{
+      width: 100% !important;
+      margin-top: 40px;
+    }
+  }
+}

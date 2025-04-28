@@ -1,0 +1,23 @@
+/*body*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+/* root */
+:root{
+  --navbar-bg-color: white;
+  --nav-links-color: rgb(222, 116, 134);
+  --bg-color-secondary: #f9e8f1;
+  --div-bg: rgb(250, 237, 251); /*change it later for hero.scss line 5*/
+}
+
+/* shared styles */
+.a{
+  color: black;
+  text-decoration: none;
+}
