@@ -5,7 +5,7 @@ import Error from './components/pages/error/Error';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/portolio/',
     element: <Home />,
     errorElement: <Error />
   },
