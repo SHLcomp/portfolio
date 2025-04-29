@@ -45,9 +45,9 @@ const Education = () => {
             <h6>Find me on my socials:</h6>
             <ul>
               <li><i className="fa-brands fa-instagram"></i> <Link to={"https://www.instagram.com/eng.sarahbader648/"}>Instagram</Link> </li>
-              <li><i className="fa-brands fa-linkedin"></i> <Link to={""}>LinkedIn</Link> </li>
-              <li><i className="fa-brands fa-github"></i> <Link to={""}>GitHub</Link></li>
-              <li><i className="fa-solid fa-envelope"></i> <Link to={""}>Email</Link></li>
+              <li><i className="fa-brands fa-linkedin"></i> <Link to={"https://www.linkedin.com/in/sarah-bader-98894725a/"}>LinkedIn</Link> </li>
+              <li><i className="fa-brands fa-github"></i> <Link to={"https://github.com/SHLcomp"}>GitHub</Link></li>
+
             </ul>
             </div>
 

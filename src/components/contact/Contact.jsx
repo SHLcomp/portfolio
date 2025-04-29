@@ -1,11 +1,12 @@
 import './Contact.scss';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   return (
     <div id="contact">
     <div className="container contact-form">
       
-      <form method="post">
+      <form method="post"action="https://formspree.io/f/movdjdap">
         <h3>Drop Me a Message</h3>
         <div className="row">
           <div className="col-md-6 one">
