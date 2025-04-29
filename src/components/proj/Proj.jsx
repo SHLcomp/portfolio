@@ -24,7 +24,7 @@ const Proj = () => {
   // swiper to show my projects
     <div id='proj'>
       <div className="proj-txt">
-        <h3>Here are Some of My Previous Work:</h3>
+        <h3>Here are Some Samples of My Previous Work:</h3>
       </div>
       <div className="swiper cont">
         <div className="swiper-wrapper" >

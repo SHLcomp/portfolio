@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 
 
 const Education = () => {
+  const handleWhatsApp = () => {
+    window.open('https://wa.me/9620771407526', '_blank'); 
+  };
   return (
     <div className="exp" id='exp'>
       <div className="img-cont">
@@ -19,10 +22,9 @@ const Education = () => {
 
         <div className="list-txt">
           <div className="txt">
-            <p>I started learning programming when I was 15 year old, ever since I worked on many projects as a freelancer, 
-              some were not too perfect, but now that I have got 5+ years of experience with too many projects that I have made and sold
+            <p>I have got 5+ years of experience with too many projects that I have made and sold
               to my customers, and with all the learning paths I walked through (and still going throught), and with all the of the 
-              certificates that I obtained... I can proudly see myself as a frontend web developer!!
+              certificates that I obtained... I can proudly see myself as a professional frontend web developer!!
             </p>
               
               <section>
@@ -42,17 +44,17 @@ const Education = () => {
               <div className="cta">
             {/* socials and download cv... again */}
             <div className="socials">
-            <h6>Find me on my socials:</h6>
+            <h6>Find me on: </h6>
             <ul>
-              <li><i className="fa-brands fa-instagram"></i> <Link to={"https://www.instagram.com/eng.sarahbader648/"}>Instagram</Link> </li>
               <li><i className="fa-brands fa-linkedin"></i> <Link to={"https://www.linkedin.com/in/sarah-bader-98894725a/"}>LinkedIn</Link> </li>
               <li><i className="fa-brands fa-github"></i> <Link to={"https://github.com/SHLcomp"}>GitHub</Link></li>
-
+              <li><i className="fa-solid fa-f"></i> <Link to={"https://www.fiverr.com/s/KeRNwzY"}>Fiverr</Link></li>
+              <li><i className="fa-brands fa-whatsapp "onClick={handleWhatsApp}> </i> WhatsApp</li>
             </ul>
             </div>
 
             <div className="projects">
-              <a className='a' href='#proj'><button>Check My Projects!!</button></a>
+              <a className='a' href='#proj'><button>Check Samples!!</button></a>
             </div>
 
             
