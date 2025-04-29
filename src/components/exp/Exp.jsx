@@ -47,6 +47,7 @@ const Education = () => {
               <li><i className="fa-brands fa-instagram"></i> <Link to={"https://www.instagram.com/eng.sarahbader648/"}>Instagram</Link> </li>
               <li><i className="fa-brands fa-linkedin"></i> <Link to={""}>LinkedIn</Link> </li>
               <li><i className="fa-brands fa-github"></i> <Link to={""}>GitHub</Link></li>
+              <li><i className="fa-solid fa-envelope"></i> <Link to={""}>Email</Link></li>
             </ul>
             </div>
 

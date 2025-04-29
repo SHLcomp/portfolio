@@ -13,9 +13,9 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className='navbar navbar-expand-lg'>
+      <nav className='navbar'>
         <ul>
-          <li className='navbar-brand' onClick={handleToggle}>
+          <li className='nav-brand' onClick={handleToggle}>
             Sarah .<span>H</span>
           </li>
 

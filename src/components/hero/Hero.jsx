@@ -13,6 +13,7 @@ const Hero = () => {
         <div className="header">
           <h4 className="greet">Hey There!</h4>
           <h1 className="act-txt">I&apos;m Sarah, a <span>Web Developer</span>.</h1>
+          <p>I am Sarah Herzallah, I&apos;m from Jordan. My native language is Arabic, and I speak English fluently.</p>
         </div>
 
         <div className="ctas">
