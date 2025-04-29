@@ -35,7 +35,7 @@ let data = [
   },
   {
     title: "FreshRes",
-    cat: ["uisine", ", General"],
+    cat: ["Cuisine", ", General"],
     link: "https://shlcomp.github.io/FreshRes/index.html",
     img: p5,
     des: "Made with npx create react app"
