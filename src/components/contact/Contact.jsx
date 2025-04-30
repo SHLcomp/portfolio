@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="row">
           <div className="col-md-6 one">
             <div className="form-group">
-              <input
+              <input required
                 type="text"
                 name="txtName"
                 className="form-control"
@@ -20,7 +20,7 @@ const Contact = () => {
               />
             </div>
             <div className="form-group">
-              <input
+              <input required
                 type="text"
                 name="txtEmail"
                 className="form-control"
@@ -33,7 +33,7 @@ const Contact = () => {
                 type="text"
                 name="txtPhone"
                 className="form-control"
-                placeholder="Your Phone Number *"
+                placeholder="Your Phone Number"
                 defaultValue=""
               />
             </div>
@@ -48,7 +48,7 @@ const Contact = () => {
           </div>
           <div className="col-md-6">
             <div className="form-group">
-              <textarea
+              <textarea required
                 name="txtMsg"
                 className="form-control"
                 placeholder="Your Message *"
