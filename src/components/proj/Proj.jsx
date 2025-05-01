@@ -41,7 +41,7 @@ const Proj = () => {
                   <h1>{item.title}</h1>
                   <h4>{item.cat}</h4>
                   <p>{item.des}</p>   
-                  <Link className='a' to={item.link}><h6>Go To</h6></Link>
+                  <a className='a' href={item.link} target='_blank'><h6>Go To</h6></a>
                 </div>
 
               </div>
