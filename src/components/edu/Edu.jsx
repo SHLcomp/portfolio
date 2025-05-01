@@ -24,12 +24,12 @@ const Edu = () => {
             <h6>Resources I seized in the sake of learning:</h6>
             <ul>
               <li>FreeCodeCamp.</li>
-              <a to="https://htux.org/" target='_blank'><li>HTUx | Al-Hussein Technical University.</li></a>
+              <a href="https://htux.org/" target='_blank'><li>HTUx | Al-Hussein Technical University.</li></a>
               <li>Khan Academy.</li>
               <li>w3school.</li>
               <li>Youtube.</li>
               <li>Stack Overflow.</li>
-              <a to="https://app.manara.tech/" rel="noopener noreferrer" target='_blank'><li>Manara.</li></a>
+              <a href="https://app.manara.tech/" rel="noopener noreferrer" target='_blank'><li>Manara.</li></a>
             </ul>
           </div>
       </div>
