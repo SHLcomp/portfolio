@@ -1,9 +1,9 @@
 import './App.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import Home from './components/pages/home/Home';
 import Error from './components/pages/error/Error';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/portfolio',
     element: <Home />,
