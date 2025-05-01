@@ -3,7 +3,6 @@ import { useEffect } from 'react';
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 import data from './data/data';
-import { Link } from 'react-router-dom';
 
 const Proj = () => {
   useEffect(() => {
@@ -41,7 +40,8 @@ const Proj = () => {
                   <h1>{item.title}</h1>
                   <h4>{item.cat}</h4>
                   <p>{item.des}</p>   
-                  <a className='a' href={item.link} target='_blank'><h6>Go To</h6></a>
+                  <a className='a' href={item.link} target='_blank' rel="noopener noreferrer"><h6>Go To</h6></a>
+                  {/* note: for redirecting to external links, use <a href={}> tag not <Link to={}> tag */}
                 </div>
 
               </div>
